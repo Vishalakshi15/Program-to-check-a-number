@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("N1:");
+	    int N1=sc.nextInt();
+	    System.out.println("N2:");
+	    int N2=sc.nextInt();
+	    if((N1+N2)%2==0)
+	    System.out.println("Even");
+	    else
+	    System.out.println("Odd");
+	}
+}
