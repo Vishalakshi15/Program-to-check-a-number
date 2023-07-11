@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("N1:");
+	    int N1=sc.nextInt();
+	    System.out.println("N2:");
+	    int N2=sc.nextInt();
+	    if(N1>N2)
+	    System.out.println(N1+"is greater than"+N2);
+	    else
+	    System.out.println(N2+"is greater than"+N1);
+	   
+	}
+}
